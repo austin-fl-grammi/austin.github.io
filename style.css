@@ -6,10 +6,11 @@ body.lockscreen {
 }
 
 .buttons {
-  width: 50%;
+  width: 25%;
   margin: auto;
   background-color: grey;
 }
+
 
 .lock {
   width: 100%;
@@ -19,6 +20,10 @@ body.lockscreen {
 .lock button {
   background-color: red;
   border: 2px, solid, black;
+}
+
+.lock button:hover {
+  background-color: hsl(0, 100, 50)
 }
 
 body {
